@@ -22,7 +22,7 @@ points(wDays, data$Sub_metering_1,type="l",col="black") ## sequence of points to
 points(wDays, data$Sub_metering_2,type="l",col="red") ## sequence of points to plot
 points(wDays, data$Sub_metering_3,type="l",col="blue") ## sequence of points to plot
 
-legend("topright",lwd=c(1,1,1),col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n") ## Plot Annotation
+legend("topright",lwd=c(1,1,1),col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3")) ## Plot Annotation
 
 dev.off() ## close the device and returns the number and name of the new active device
 
